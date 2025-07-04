@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "angle_publisher = rotary_encoder.angle_publisher:main",
-            "angle_plotter = rotary_encoder.angle_plotter:main"
+            "angle_plotter = rotary_encoder.angle_plotter:main",
+            "angle_publisher_serial = rotary_encoder.angle_publisher_serial:main"
         ],
     },
 )
