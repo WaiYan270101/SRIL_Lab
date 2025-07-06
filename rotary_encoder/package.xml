@@ -14,6 +14,10 @@
   <depend>time</depend>
   <depend>serial</depend>
   <depend>math</depend>
+  <depend>pandas</depend>
+  <depend>matplotlib.pyplot</depend>
+  <depend>matplotlib.animation</depend>
+  <depend>threading</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             "angle_publisher = rotary_encoder.angle_publisher:main",
             "angle_plotter = rotary_encoder.angle_plotter:main",
-            "angle_publisher_serial = rotary_encoder.angle_publisher_serial:main"
+            "angle_publisher_serial = rotary_encoder.angle_publisher_serial:main",
+            "angle_logger_serial = rotary_encoder.angle_logger_serial:main",
+            "angle_plotter_serial = rotary_encoder.angle_plotter_serial:main",
         ],
     },
 )

@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jeremy/SRIL_ros2_ws/install/rotary_encoder/lib/python3.10/site-packages",
+        "/home/jeremy/ros2_ws1/build/my_robot_controller",
+        "/home/jeremy/ros2_ws1/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jeremy/SRIL_ros2_ws/install/rotary_encoder/lib/python3.10/site-packages",
+        "/home/jeremy/ros2_ws1/build/my_robot_controller",
+        "/home/jeremy/ros2_ws1/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
