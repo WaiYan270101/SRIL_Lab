@@ -75,10 +75,12 @@ class SubAndPlot(Node):
         plt.plot(x1, y1, label='Motor Angle')
         plt.plot(x2, y2, label='Encoder Angle')
             
+        plt.title("Realtime Plot of Motor and Encoder Angles")
         plt.xlabel("Time (s)")
         plt.ylabel("Angle (radian)")
         plt.legend(loc='upper left')
         plt.tight_layout()
+        plt.grid()
 
         return plt.gca(),
 
